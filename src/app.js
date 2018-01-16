@@ -23,12 +23,10 @@ store.subscribe( () => {
 } );
 
 
-store.dispatch( setTextFilter("water") );
-
 const expense1 = store.dispatch(addExpense({
   description: 'Water bill',
   note: 'Water bill',
-  amount: 54500,
+  amount: 200,
   createdAt: 1000
 }));
 
@@ -36,6 +34,13 @@ const expense2 = store.dispatch(addExpense({
   description: 'Gas bill',
   note: 'Gas bill',
   amount: 500,
+  createdAt: 500
+}));
+
+const expense3 = store.dispatch(addExpense({
+  description: 'Rent',
+  note: 'Gas bill',
+  amount: 1500,
   createdAt: -1000
 }));
 
