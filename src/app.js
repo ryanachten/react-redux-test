@@ -19,7 +19,7 @@ const store = configureStore();
 store.subscribe( () => {
   const state = store.getState();
   const visisbleExpenses = getVisibleExpenses(state.expenses, state.filters);
-  console.log(visisbleExpenses);
+  // console.log(visisbleExpenses);
 } );
 
 
