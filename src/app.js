@@ -11,6 +11,7 @@ import {setTextFilter, sortByDate, sortByAmount, setStartDate, setEndDate} from 
 import getVisibleExpenses from './selectors/expenses.js'
 
 import 'normalize.css/normalize.css';
+import 'react-dates/lib/css/_datepicker.css';
 import './styles/style.scss';
 
 
